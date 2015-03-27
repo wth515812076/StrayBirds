@@ -14,7 +14,7 @@ comments: true
 
 第一是继承 Thread 类，实现 run 方法，并创建子类对象。
 
-```java
+```c++
 	public void startThreadUseSubClass() {
 		class MyThread extends Thread {
 			public void run() {
